@@ -10,5 +10,6 @@ from .branch_metric import BranchMetric
 from .elimination_step import EliminationStep
 from .review import EvidenceReview
 from .report import Report
+from .reorder import ReorderRecord
 from .user import User
 from .audit import Audit

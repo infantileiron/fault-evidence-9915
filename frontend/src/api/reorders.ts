@@ -1,0 +1,1 @@
+import {request} from './client';export const list=()=>request('/reorders');export const detail=(id:string)=>request('/reorders/'+id);export const create=(body:unknown)=>request('/reorders','POST',body);
